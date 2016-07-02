@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.supriyalahade.rainbow.Rainbow_Activity"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:layout_weight="1"
+
+    >
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Red"
+        android:textSize="35dp"
+        android:id="@+id/Red"
+        android:background="@android:color/holo_red_dark"
+
+        />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Orange"
+        android:textSize="35dp"
+        android:id="@+id/Orange"
+        android:background="@android:color/holo_orange_dark"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Yellow"
+        android:textSize="35dp"
+        android:id="@+id/Yellow"
+
+        android:background="#fbf711"
+
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Green"
+        android:textSize="35dp"
+        android:id="@+id/Green"
+
+        android:background="@android:color/holo_green_light" />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Blue"
+        android:textSize="35dp"
+        android:id="@+id/Blue"
+
+        android:background="@android:color/holo_blue_dark" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Indigo"
+        android:textSize="35dp"
+        android:id="@+id/Indigo"
+
+
+        android:background="#283593" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Violet"
+        android:textSize="35dp"
+        android:id="@+id/Violet"
+
+
+
+        android:background="#9C27B0" />
+
+
+
+</LinearLayout>
